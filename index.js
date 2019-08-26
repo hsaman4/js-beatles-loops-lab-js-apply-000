@@ -29,7 +29,7 @@ function iLoveTheBeatles (number) {
     two.push("I love the Beatles!");
     num++
   }
-  while (num>15);
+  while (number>15);
   return two
 
 }
