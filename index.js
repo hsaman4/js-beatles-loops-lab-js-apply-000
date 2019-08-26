@@ -14,11 +14,11 @@ function johnLennonFacts (facts) {
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice" ] ; 
-  var newOne = []; 
-  var x = 0 ;
+  const newOne = []; 
+  let x = 0 ;
 while (x < facts.length){
-  newOne += newOne.push(`${facts[x]}!!!`) ;
-  x++
+  newOne.push(`${facts[x]}!!!`) ;
+  x++:
 }
 return newOne; 
 }
