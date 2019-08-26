@@ -26,5 +26,5 @@ return newOne;
 function iLoveTheBeatles (number) {
   var two = []
   do { 
-    two.push
+    two.push("I love the Beatles!")
 }
