@@ -16,13 +16,14 @@ function johnLennonFacts () {
   "He hated the sound of his own voice" ] ; 
   var newOne = []; 
   var x = 0 ;
-while (x < facts.length)
+while (x < facts.length){
   newOne.push(facts [x] + "!!!") ;
   x++
+}
 return newOne; 
 }
 
 function iLoveTheBeatles (number) {
   var two = []
-  do {
+  do { 
 }
